@@ -1,0 +1,933 @@
+@font-face{
+	font-family: 'MuseoSansCyrl-300';
+    src: url(fonts/MuseoSansCyrl-300/MuseoSansCyrl-300.eot);
+    src: url(fonts/MuseoSansCyrl-300/MuseoSansCyrl-300.ttf);
+    src: url(fonts/MuseoSansCyrl-300/MuseoSansCyrl-300.woff);
+}
+
+@font-face{
+	font-family: 'MuseoSansCyrl-700';
+    src: url(fonts/MuseoSansCyrl-700/MuseoSansCyrl-700.eot);
+    src: url(fonts/MuseoSansCyrl-700/MuseoSansCyrl-700.ttf);
+    src: url(fonts/MuseoSansCyrl-700/MuseoSansCyrl-700.woff);
+}
+
+@font-face{
+	font-family: 'MuseoSansCyrl-900';
+    src: url(fonts/MuseoSansCyrl-900/MuseoSansCyrl-900.eot);
+    src: url(fonts/MuseoSansCyrl-900/MuseoSansCyrl-900.ttf);
+    src: url(fonts/MuseoSansCyrl-900/MuseoSansCyrl-900.woff);
+}
+
+@font-face{
+    font-family: 'OpenSans-Bold';
+    src: url(fonts/OpenSans-Bold/OpenSans-Bold.eot);
+    src: url(fonts/OpenSans-Bold/OpenSans-Bold.ttf);
+    src: url(fonts/OpenSans-Bold/OpenSans-Bold.woff);
+}
+
+@font-face{
+    font-family: 'OpenSans-Light';
+    src: url(fonts/OpenSans-Light/OpenSans-Light.eot);
+    src: url(fonts/OpenSans-Light/OpenSans-Light.ttf);
+    src: url(fonts/OpenSans-Light/OpenSans-Light.woff);
+}
+
+@font-face{
+    font-family: 'OpenSans-SemiBold';
+    src: url(fonts/OpenSans-SemiBold/OpenSans-SemiBold.eot);
+    src: url(fonts/OpenSans-SemiBold/OpenSans-SemiBold.ttf);
+    src: url(fonts/OpenSans-SemiBold/OpenSans-SemiBold.woff);
+}
+
+@font-face{
+    font-family: 'MyriadPro-Regular';
+    src: url(fonts/MyriadPro-Regular/MyriadPro-Regular.eot);
+    src: url(fonts/MyriadPro-Regular/MyriadPro-Regular.ttf);
+    src: url(fonts/MyriadPro-Regular/MyriadPro-Regular.woff);
+}
+
+.COLOR{
+    border: 1px solid green;
+}
+     
+/* common main styles */
+
+p{
+    font-family: 'MyriadPro-Regular';
+    color: black;
+    font-size: 1.1rem;
+}
+
+
+    /* nav + header */
+ 
+
+header{
+    /* background: url(..//img/bg-header.png) center top no-repeat;  */
+    background: url(../);               
+    font-size: 40px;
+} 
+
+nav{
+    font-family: 'MuseoSansCyrl-300';
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.navbar{
+    padding: 2rem 0 0 0;
+}
+
+.container{
+    /* border: 1px solid red;  */
+    padding: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: 1.5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.8);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255,255,255);
+}
+
+/* main */
+
+h1{
+    font-family: 'OpenSans-Bold';
+    font-size: 3.1rem;
+    font-weight: bold;
+    padding-top: 110px;
+    color: white;
+    line-height: 1.0;
+}
+
+header p{
+    color: white;
+    font-family: 'OpenSans-Light';
+    font-size: 1.4rem;
+    padding: 20px 280px 20px 0;
+}
+
+.orange-btn{
+    background: linear-gradient(to right, #ff7d38, #ed9932);
+    color: white;
+    box-shadow: 0px 0px 20px 5px rgba(255, 125, 56, 0.34);
+    font-family: 'OpenSans-SemiBold';
+}
+
+.orange-btn:hover{
+    background: linear-gradient(to right, #ed9932, #ebb26c);
+}
+
+.orange-btn:active{
+    background: #ff6401;
+}
+
+.btn{
+    font-size: 1.3rem;
+    margin-bottom: 280px;
+    padding: 12px 30px;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+
+.earth{
+    display: block;
+    margin-left: -130px;
+    /* height: 78%;     */
+}
+
+ .earth img{
+    height: 100%;
+}  
+
+.planet{
+    padding-top: 50px;
+}
+
+/* about us */
+
+h2{
+    font-family: 'MuseoSansCyrl-700';
+    font-size: 2,8rem;
+    font-weight: bold;
+    color: #0a154d;
+    line-height: 1.0;
+    padding-bottom: 24px;
+}
+
+.about-us-text p{
+    color: #00082b;
+}
+
+.about-us h2{
+    font-family: 'OpenSans-Bold';
+}
+
+.light{
+    display: block;
+    width: 100%;
+    max-width: 490px;
+    text-align: right;
+}
+
+.about-us-text{
+    margin-left: 80px;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    max-width: 660px;
+    margin-bottom: 80px;
+    box-shadow: 0px 27px 43px 0px rgba(0, 0, 0, 0.1);
+}
+
+.about-us{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: url(img/angled.jpg) left top no-repeat;
+    margin-left: -80px;
+}
+
+.about-us h2{
+    padding-top: 20px;
+}
+
+/* Our cryptocurrency */
+
+.windmill{
+    background: url(img/windmills.png) center top no-repeat; 
+    min-height: 500px; 
+    padding-bottom: 40px; 
+    /* border: 1px solid green; */
+}
+
+.pictogram{
+    display: block;
+    float: left;
+    margin-right: 30px;
+    margin-top: 60px;
+}
+
+.card p{
+    font-family: 'MuseoSansCyrl-300';
+    font-weight: 600;
+    color: #2b3465;
+}
+
+.card{
+    min-height: 140px;
+    border: transparent;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 0px 27px 43px 0px rgba(0, 0, 0, 0.1);
+    padding:20px 20px 0 20px;
+    margin-top: 60px;
+}
+
+.even-card{
+    min-height: 195px;
+}
+
+/* Video about us */
+
+.video-h2{
+    padding: 50px 0 50px 0;
+}
+
+.videowrapper{
+    border-radius: 26px;
+    -webkit-border-radius: 26px;
+    -moz-border-radius: 26px;
+    -ms-border-radius: 26px;
+    -o-border-radius: 26px;
+    overflow: hidden;
+    box-shadow: 0px 27px 43px 0px rgba(0, 0, 0, 0.1);
+}
+
+.video{
+padding-top: 10px;
+}
+
+/* Example */
+
+.example{
+    background: url(img/example-bg.jpg) center top no-repeat;
+}
+
+.example-h2{
+    font-family: 'MuseoSansCyrl-300';
+    font-size: 2.8rem;
+    font-weight: 700;
+    padding-top: 220px;
+    padding-bottom: 40px;
+    color: #fff;
+}
+
+.example-h2-after{
+    padding-top: 30px;
+    font-family: 'MuseoSansCyrl-300';
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 160px;
+    color: #fff;
+    text-align: center;
+}
+
+.scheme-mob{
+    display: none;
+}
+
+/* Token */
+
+.token{
+    background: url(img/token-bg.jpg) center top no-repeat;
+}
+
+.token-shadow img{
+    box-shadow: 0px 27px 43px 0px rgba(0, 0, 0, 0.1);
+}
+
+.token-h2{
+    padding-top: 40px;
+}
+
+.token ul{
+    list-style-type: none;
+    padding-left: 0;
+    color: #0a154d;
+}
+
+h3{
+    font-family: 'MuseoSansCyrl-700';
+    color: #0a154d;
+    padding-top: 80px;
+    font-size: 1.6rem;
+}
+
+.token p{
+    color: #0a154d;
+}
+
+.model-schema{
+    display: flex;
+    justify-content: center;
+}
+
+.model-schema-mob{
+    display: none;
+}
+
+/* Projects */
+
+.projects h2{
+    color: #000;
+}
+
+.projects{
+    margin-top: 202px;
+    background: url(img/map-bg.jpg) center top no-repeat;
+    /* border: 1px solid green; */
+    min-height: 300px;
+    padding-bottom: 160px;
+}
+
+h4{
+    font-family: 'MuseoSansCyrl-700';
+    font-size: 1.2rem;
+}
+
+.moldova-h4::before{
+    content: url(img/flag-Moldova.jpg);
+    vertical-align: -30%;
+    margin-right: 10px;
+}
+
+.georgia-h4::before{
+    content: url(img/flag-Georgia.jpg);
+    vertical-align: -30%;
+    margin-right: 10px;
+}
+
+.russia-h4::before{
+    content: url(img/flag-Russia.jpg);
+    vertical-align: -30%;
+    margin-right: 10px;
+}
+
+.dominikana-h4::before{
+    content: url(img/flag-Dominikana.jpg);
+    vertical-align: -30%;
+    margin-right: 10px;
+}
+
+.odd-card-project{
+    min-height: 180px;
+}
+
+/* News */
+
+.news{
+    margin-top: 90px;
+    margin-bottom: 128px;
+}
+
+.news h2{
+    color: #000;
+    /* padding-bottom: 46px; */
+}
+
+.news h4{
+    padding-top: 19px;
+    margin-bottom: 6px;
+}
+
+.news p{
+    font-size: 1rem;
+    margin-bottom: 6px;
+}
+
+.news img{
+    margin-top: 20px;
+}
+
+
+/* Footer */
+
+footer{
+    background: linear-gradient(65deg, #18181a, #7c7d83);
+    padding-top: 34px;
+    padding-bottom: 80px;
+}
+
+/* .cols-footer{
+    border: 1px solid #fff;
+} */
+
+footer h4{
+    color: #fff;
+    font-size: 1rem;
+}
+
+footer p{
+    font-family: 'MuseoSansCyrl-300';
+    color: #fff;
+    margin-bottom: 0;
+    font-weight: 1rem;
+}
+
+@media (max-width: 1600px){
+    header,
+    .windmill,
+    /* .example */
+    {
+        background-size: 1600px auto;
+    }
+
+    header{
+        background: url(img/bg-header-1600.png) center top no-repeat;  
+    }
+
+    /* Projects */
+
+    .projects{
+        background: url(img/map-bg-1600.png) center top no-repeat;
+    } 
+
+}
+
+@media (max-width: 1440px){
+    header,
+    .windmill,
+    /* .example */
+    {
+        background-size: 1440px auto;
+    }
+
+    header{
+        background: url(img/bg-header-1600.png) center top no-repeat;  
+    }
+}
+
+@media (max-width: 1366px){
+    header,
+    .windmill,
+    /* .example */
+    {
+        background-size: 1366px auto;
+    }
+
+    header{
+        background: url(img/bg-header-1366.png) center top no-repeat;  
+    }
+
+    /* Projects */
+
+    .projects{
+        background: url(img/map-bg-1366.png) center top no-repeat;
+    } 
+
+
+}
+
+@media (max-width: 1300px) {
+     .earth{
+        height: 68%;   
+    }
+
+    .light img{
+        width: 80%;
+    }
+
+    header{
+        background-size: 1366px auto;
+        background-position-y: 60%;
+    }
+
+    .btn{
+        margin-bottom: 20px; 
+    }
+
+  }
+
+@media (max-width: 1199px) {
+
+    header,
+    .windmill,
+    /* .example */
+    {
+        background-size: 1199px auto;
+    }
+
+    .light{
+        max-width: 350px;
+    }
+
+    /* Our cryptocurrency */
+
+    /* .windmill{
+        background: none;
+    } */
+  
+
+    .even-card{
+        min-height: 220px;
+    }
+
+    /* Example */
+
+    .example-h2{
+        font-size: 2rem;
+    }
+
+    .example{
+        margin-top: -100px;
+    }
+
+    .example-h2-after{
+        padding-bottom: 40px;
+    }
+
+    /* Token */
+
+    .token-model{
+        padding-top: 30px;
+    }
+
+    /* Projects */
+
+
+    .projects{
+        margin-top: 80px;
+        /* padding-bottom: 40px; */
+    }
+
+    .odd-card-project{
+        min-height: 206px;
+    }
+
+    .even-card-project{
+        min-height: 156px;
+    }
+
+    /* News */
+
+    .news{
+        margin-top: 0;
+        margin-bottom: 60px;
+    }
+
+    /* footer */
+
+    footer p{
+        font-size: 1rem;
+    }
+
+  }
+@media (max-width: 1110px) {
+    /* .earth{
+        margin-left: -166px; 
+    } */
+
+    .even-card{
+        min-height: 220px;
+        }
+
+    /* footer */
+
+    footer p{
+        font-size: 0.8rem;
+    }
+    
+
+  }
+
+  @media (max-width: 1024px){
+    header{
+        background: url(img/bg-header-1024.png) center top no-repeat;
+        background-position-y: 90%;
+    }
+
+    header,
+    .windmill,
+    /* .example */
+    {
+        background-size: 1024px auto;
+    }
+
+    /* Projects */
+
+    .projects{
+        background: url(img/map-bg-1024.png) center top no-repeat;
+    } 
+
+}
+
+@media (max-width: 991px) {
+ 
+    /* header{
+        background-position-x: -100%;
+    }   */
+
+    header{
+        background: url(img/bg-header-992.png) center top no-repeat;
+    }
+
+    header,
+    .windmill,
+    .projects
+    /* .example */
+    {
+        background-size: 991px auto;
+    }
+
+    h1{
+        font-size: 2.3rem;
+        padding-top: 30px;
+    }
+
+    header p{
+        font-size: 1.2rem;
+    }
+
+    /* .earth{
+        height: 62%;   
+    }  */
+/* 280 */
+    .btn{
+        font-size: 1rem;
+        margin-bottom: 20px;        
+        padding: 10px 20px;
+        
+    }
+
+    .nav-link{
+        text-align: center;
+    }
+
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* about us */
+     
+    .about-us{
+        margin-top: -75px;
+        padding-bottom: 0;
+    }
+    
+    .light{
+        text-align: center;
+    }
+
+    .about-us-text{
+        max-width: 370px;
+        margin-bottom: 40px;    
+    }
+
+    /* Our cryptocurrency */
+
+    .windmill{
+        padding-bottom: 0;
+    }
+
+    .pictogram  img {
+        width: 100%;
+    } 
+
+    .pictogram{
+        margin-right: 0;
+        max-width: 50px;
+        margin-right: 10px;
+    }
+
+    .card{
+        margin-top: 20px;
+    }
+
+    h2{
+        margin-bottom: 0;
+    }
+
+    .h2-crypto{
+        padding-bottom: 0;
+    }
+
+    .card p{
+        font-size: 15px;
+    }
+
+    .odd-card{
+        min-height: 150px;
+    }
+
+    .even-card{
+        min-height: 180px;
+    }
+
+    .video-h2{
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+
+    .videotext{
+        padding-top: 16px;
+    }
+
+    /* Example */
+
+    .example{
+        margin-top: -120px;
+    }
+
+    .example-h2{
+        padding-top: 180px;
+    }
+
+    /* Token */
+
+    h3.token-model{
+        padding-top: 20px;
+    }
+
+     /* Projects */
+
+     .projects{
+        margin-top: 50px;
+        padding-bottom: 80px;
+    }
+
+     .odd-card-project{
+        min-height: 206px;
+    }
+
+    /* Footer */
+
+    footer{
+        padding-bottom: 40px;
+    }
+
+}
+    
+
+    @media (max-width: 767px) {
+
+        header{
+            background: url(img/bg-header-768.png) center top no-repeat;
+        }
+
+        header,
+        .windmill,
+        /* .example */
+        {
+            background-size: 767px auto;
+        }
+
+        header p{
+            padding: 20px 180px 20px 0;
+        }
+
+        .earth{
+            margin-left: 0;
+            /* height: 75%; */
+        }
+
+        .btn{
+            margin-bottom: 0;
+            
+        }
+
+        .planet{
+            padding-top: 0;
+        }
+
+        .navbar{
+            padding-top: 10px;
+        }
+
+        /* about us */
+
+
+        .about-us{
+            margin: -180px 0 0 0;
+            width: 100%;
+            background: none;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        .about-us-text{
+            margin-left: 0;
+            margin-bottom: 20px;
+            min-width: 100%;
+        }
+
+        .light{
+            min-width: 100%;
+        }
+
+        .light img{
+            width: 65%;
+            box-align: center;
+        }
+
+
+        /* Our cryptocurrency */
+
+        h2{
+            padding-bottom: 0;
+        }
+
+        .odd-card{
+            min-height: 100px;
+        }
+    
+        .even-card{
+            min-height: 100px;
+        }
+
+        .windmill{
+            padding-bottom: 10px;
+        }
+
+        /* Example */
+
+        .example{
+            margin-top: -140px;
+        }
+
+        .example-h2{
+            padding-top: 170px;
+            padding-bottom: 20px;
+            font-size: 1.5rem;
+            padding-left: 15px;
+        } 
+
+        .scheme-mob{
+            display: block;
+        }
+
+        .scheme{
+            display: none;
+        }
+
+        /* Token */
+
+        .token-h2{
+            padding-bottom: 10px;
+            padding-top: 20px;
+        }
+
+        .model-schema-mob{
+            display: block;
+        }
+        .model-schema{
+            display: none;
+        }
+
+        .token-shadow{
+            margin-bottom: 10px;
+        }
+
+        /* Projects */
+        
+
+        /* .projects{
+            background: url(img/map-bg-768.png) center top no-repeat;
+        }  */
+
+        
+
+        .projects{
+            margin-top: 30px;
+            padding-bottom: 40px;
+        }
+
+        .odd-card-project{
+            min-height: 170px;
+        }
+    
+        .even-card-project{
+            min-height: 122px;
+        }
+
+        /* News */
+
+        .news{
+            margin-bottom: 30px;
+        }
+
+        /* Footer */
+
+        footer{
+            padding-bottom: 20px;
+        }
+
+        footer h4{
+            padding-top: 14px;
+        }
+
+        
+        
+      }
+
+  
+
+  
+  
